@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="src/stylesheet.css" />
+    <meta charset="UTF-8">
+    <title>Cat Photo App</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<header>
+<h1>Cat photo app</h1>
+</header>
+<main>
+
+<section> Photos <!-- Photo section -->
+    <h2>Cat photos</h2>
+    <!--TODO: Add link to cat photos-->
+    <p>Click here to view another <a target="_blank" href="https://twitter.com/DWhocodes/status/1477743927172157449/photo/1">Cat photo</a></p>
+    <a target="_blank" href="https://twitter.com/DWhocodes/status/1477743927172157449/photo/1"> <img src="images/1488192_10153625998215481_1007415069_n.jpg" alt="a cat on paper"> </a>
+</section> <!-- seperate sections on page -->
+
+
+<section> <!--Lists section -->
+    <h2>My cats Lists</h2>
+    <h3>Things my cat loves:</h3>
+    <ul> <!-- unordered list - bullet points only -->
+        <li>Sleeping</li><!-- listed items -->
+        <li>Christmas trees</li>
+        <li>Keeping his human awake at night!</li>
+    </ul>
+    <figure> <!-- The figure element represents self-contained content
+             and will allow you to associate an image with a caption. -->
+    <img src="images/maxresdefault.jpg" alt="fishing cat"/>
+    <figcaption>Cats <em>love</em> to hunt for food</figcaption> <!-- A figure 
+    caption element is used to add a caption to describe the image 
+    contained within the figure element. -->
+    </figure>
+    <h3>Things my cat hates:</h3>
+    <ol>
+        <li>Rain!</li>
+        <li>Dogs</li>
+        <li>An empty food bowl</li>
+    </ol>
+    <figure>
+        <img src="images/2869652119_3bb0b6be7e_n.jpg" alt="cats under umbrella in the rain">
+        <figcaption>Cats watching the <strong>rain</strong></figcaption>
+    </figure>
+</section>
+
+
+<section> <!-- Forms section -->
+    <h2>Cat form</h2>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio"> Indoor</label>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label><input value="outdoor" name="indoor-outdoor" id="Outdoor" type="radio"> Outdoor</label>
+    </fieldset>
+        <legend>What's your cat's personality?</legend>
+    <fieldset>
+
+    </fieldset>
+        <input required type="text" placeholder="cat photo URL" name="catphotourl">
+        <button type="submit">Submit</button>
+    </form>
+
+</section>
+
+
+
+
+
+</main>
+<script src="src/index.js"></script>
+</body>
+</html>
